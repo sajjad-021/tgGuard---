@@ -89,7 +89,9 @@ cd libs
   sudo service redis-server restart
 	wget http://valtman.name/files/telegram-cli-1222
   mv telegram-cli-1222 telegram-cli
-   chmod +x telegram-cli    
+   chmod +x telegram-cli
+   chmod +x launch.sh
+   chmod +x anticrash.sh
   cd ..
   install_luarocks
   install_rocks
